@@ -1,0 +1,66 @@
+/* Container styling */
+.portfolio-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Cards container styling */
+.portfolio-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Individual card styling */
+.portfolio-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Name styling */
+.portfolio-name {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Text styling */
+.portfolio-usn,
+.portfolio-roll {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Link styling */
+.portfolio-link a {
+    font-size: 1rem;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.portfolio-link a:hover {
+    color: #003580;
+}

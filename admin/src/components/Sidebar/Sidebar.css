@@ -1,0 +1,107 @@
+/* Sidebar Container */
+.sidebar {
+    width: 18%;
+    min-height: 100vh;
+    border-right: 1.5px solid #A9A9A9;
+    border-top: 0;
+    color: black;
+    background-color: #ffffff; /* Darker background for a modern look */
+    padding-top: 20px;
+    transition: width 0.3s ease;
+    box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Sidebar Options */
+  .sidebar-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Individual Sidebar Option */
+  .sidebar-option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  /* Sidebar Option on Hover */
+  .sidebar-option:hover {
+    background-color: #d96a09; /* Darker hover background */
+    color: #fff;
+    border-left: 5px solid #3498db; /* Blue accent border */
+    transform: translateX(2px); /* Slight movement to the right */
+  }
+  
+  /* Sidebar Option Active State */
+  .sidebar-option.active {
+    background-color: #d8860b;
+    border-color: #ebab07;
+    color: #fff;
+  }
+  
+  /* Sidebar Option Icon */
+  .sidebar-option img {
+    width: 22px; /* Slightly larger icons for better visibility */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Sidebar Option Icon on Hover */
+  .sidebar-option:hover img {
+    transform: scale(1.2); /* Subtle zoom-in effect on hover */
+  }
+  
+  /* Sidebar Font Size */
+  .sidebar {
+    font-size: max(1vw, 12px);
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 900px) {
+    .sidebar {
+      width: 60%; /* More compact on mobile */
+    }
+  
+    .sidebar-option {
+      padding: 10px 15px;
+      justify-content: flex-start;
+    }
+  
+    .sidebar-option p {
+      display: none; /* Hiding text for smaller screens */
+    }
+  }
+  
+  /* Very Small Screen (Mobile) Responsiveness */
+  @media (max-width: 600px) {
+    .sidebar {
+      width: 40px;
+    }
+  
+    .sidebar-options {
+      gap: 10px;
+    }
+  
+    .sidebar-option {
+      font-size: 14px;
+      justify-content: center; /* Center align items on very small screens */
+      padding: 8px 10px;
+    }
+  
+    .sidebar-option img {
+      width: 18px; /* Smaller icons on mobile */
+    }
+  }
+  
