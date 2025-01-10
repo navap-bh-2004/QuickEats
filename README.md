@@ -149,5 +149,16 @@ cd frontend
 npm run dev
 ```
 
+![image](files/Users/jzhang/Desktop/Isolated.png)
+
+![image](files/Users/jzhang/Desktop/Isolated.png)
+
+![image](files/Users/jzhang/Desktop/Isolated.png)
+
+![image](files/Users/jzhang/Desktop/Isolated.png)
+
+![image](files/Users/jzhang/Desktop/Isolated.png)
+
+
 
 
