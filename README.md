@@ -149,16 +149,35 @@ cd frontend
 npm run dev
 ```
 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+## Sample Images 
 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+![image](images/image_(1).png)
 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+![image](images/image_(2).png)
 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+![image](images/image_(3).png)
 
-![image](files/Users/jzhang/Desktop/Isolated.png)
+![image](images/image_(4).png)
 
+![image](images/image_(5).png)
+
+![image](images/image_(7).png)
+
+![image](images/image_(8).png)
+
+![image](images/image_(9).png)
+
+![image](images/image_(10).png)
+
+![image](images/image_(11).png)
+
+![image](images/image_(12).png)
+
+![image](images/image_(13).png)
+
+![image](images/image_(14).png)
+
+![image](images/image_(15).png)
 
 
 
